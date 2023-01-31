@@ -12,14 +12,23 @@ hr{
     border-style: solid;
 }
 
-h1, h3 {
+h1, h2 {
     margin: 0 auto 0 auto;
+    font-family: OpenSans, serif;
+}
+
+h1{
+    font-size: 300%;
     color: #023047;
-    font-family: "Open Sans", serif;
 }
 
 h2 {
     color: #ffb703;
+    font-size: 200%;
+}
+
+h3{
+    color: #023047;
 }
 
 .description{
@@ -50,4 +59,25 @@ h2 {
     height: 200px;
     width: 200px;
     background-color: floralwhite;
+}
+
+.profilepicture{
+    margin-top: 15px;
+    max-height: 200px;
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.skill-pictures{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.emailbtn{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.contributions{
+    display: none;
 }
