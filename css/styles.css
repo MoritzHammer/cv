@@ -1,0 +1,21 @@
+
+
+body {
+    margin: 0;
+     background-color: #F2DEBA;
+}
+
+hr {
+    background-color: #FAECD6;
+    border-style: none;
+    height: 1px;
+}
+
+h1, h3 {
+    margin-top: 0;
+    color: #4E6C50;
+}
+
+.description{
+    align-content: center;
+}
