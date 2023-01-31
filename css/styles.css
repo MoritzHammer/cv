@@ -59,6 +59,7 @@ h3{
 .programmingpicture{
     max-height: 80vh;
     max-width: 80vw;
+    z-index: 1;
 }
 
 .middlecontainer{
