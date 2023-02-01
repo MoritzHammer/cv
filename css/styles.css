@@ -7,11 +7,12 @@ body {
     font-family: Verdana, sans-serif;
 }
 
-hr{
+hr {
     color: #ffb703;
     border-style: solid;
 }
-p{
+
+p {
     font-family: Arial, serif;
     font-size: 120%;
     color: #023047;
@@ -22,7 +23,7 @@ h1, h2 {
     font-family: Verdana, serif;
 }
 
-h1{
+h1 {
     font-size: 300%;
     color: #023047;
 }
@@ -32,21 +33,23 @@ h2 {
     font-size: 200%;
 }
 
-h3{
+h3 {
     color: #023047;
 }
 
-.description{
-    margin: 0 auto 0 auto;
-    position: relative;
-    padding-top: 50px;
-}
+/*CLASSES*/
 
-.topcloud{
+.topcloud {
     position: absolute;
     right: 50px;
     top: 50px;
     z-index: -1;
+}
+
+.description {
+    margin: 0 auto 0 auto;
+    position: relative;
+    padding-top: 50px;
 }
 
 .bottomcloud{
@@ -68,12 +71,6 @@ h3{
     background-color: aqua;
 }
 
-.bottomcontainer{
-    height: 200px;
-    width: 200px;
-    background-color: floralwhite;
-}
-
 .profilepicture{
     margin-top: 50px;
     max-height: 150px;
@@ -89,6 +86,12 @@ h3{
 .emailbtn{
     max-width: 50px;
     max-height: 50px;
+}
+
+.bottomcontainer{
+    height: 200px;
+    width: 200px;
+    background-color: floralwhite;
 }
 
 .contributions{
