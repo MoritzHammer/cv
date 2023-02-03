@@ -66,6 +66,7 @@ h3 {
 }
 
 .middlecontainer{
+    margin: 0px auto;
     height: 200px;
     width: 200px;
     background-color: aqua;
@@ -76,6 +77,21 @@ h3 {
     max-height: 150px;
     max-width: 150px;
     border-radius: 50%;
+}
+
+.skills{
+    width: 50%;
+    margin: 0px auto;
+}
+
+.skill-row-left{
+    text-align: right;
+    margin: 0px auto;
+}
+
+.skill-row-right{
+    text-align: left;
+    margin: 0px auto;
 }
 
 .skill-pictures{
