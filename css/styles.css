@@ -11,9 +11,10 @@ hr {
     height: 5px;
     color: #648ea2;
     background-color: #648ea2;
-    border-style: dotted;
+    border-radius: 7px 7px 7px 7px;
     max-width: 70px;
     border: none;
+
 }
 
 p {
@@ -25,6 +26,8 @@ p {
 h1, h2 {
     margin: 0 auto 0 auto;
     font-family: Verdana, serif;
+    padding: 10px;
+    padding-top: 25px;
 }
 
 h1 {
@@ -115,6 +118,7 @@ h3 {
 }
 
 .card {
+padding-top: 25px;
  width: 190px;
  height: 254px;
  border-radius: 20px;
@@ -202,7 +206,13 @@ a.icon-social:focus {
  overflow: visible;
  margin: 0 auto;
 }
-
+.card_p-details {
+ color: black;
+ height: 100%;
+ gap: .2em;
+ display: grid;
+ place-content: center;
+}
 .card_p:hover {
  border-color: #008bf8;
  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
