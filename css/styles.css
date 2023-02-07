@@ -195,8 +195,9 @@ a.icon-social:focus {
 }
 
 .card_p {
+ padding-top: 15px;
  max-width: 550px;
- height: 250px;
+ min-height: 150px;
  border-radius: 20px;
  background: #f5f5f5;
  position: relative;
